@@ -32,4 +32,10 @@ def sum_array(array)
 end
 
 def add_s(array)
+ array.collect do |letter|
+  if array[1] == letter
+   letter
+  else
+   letter + "s"
+  end
 end  
