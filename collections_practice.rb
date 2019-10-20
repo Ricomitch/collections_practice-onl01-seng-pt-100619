@@ -28,6 +28,11 @@ def find_a(array)
 end
 
 def sum_array(array)
+  count = 0 
+  array.each do |num|
+    count += num
+  end
+  count
 end
 
 def add_s(array)
